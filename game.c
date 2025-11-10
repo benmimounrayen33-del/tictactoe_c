@@ -9,9 +9,9 @@ void display(char board[3][3]) {
         for (int j = 0; j < 3; j++) {
             char cell = board[i][j];
             if (cell == 'X')
-                printf(" %s❌%s ", RED, RESET);
+                printf(" %sX%s ", RED, RESET);
             else if (cell == 'O')
-                printf(" %s⭕%s ", CYAN, RESET);
+                printf(" %sO%s ", CYAN, RESET);
             else
                 printf("   ");  // empty cell
 
