@@ -8,9 +8,7 @@ A **text-based Tic-Tac-Toe game** implemented in C, playable in the terminal.
 
 - Two-player mode (X vs O)
 - Detects wins and draws
-- Displays a colored board using ANSI codes:
-  - ❌ X in red
-  - ⭕ O in blue
+
 - User-friendly prompts and input validation
 - Optional replay feature
 
